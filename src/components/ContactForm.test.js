@@ -35,8 +35,11 @@ test("form adds contact info and message after form submit", ()=>{
 
 })
 
-test("max-length of name inputs should be 12", ()=>{
-    const {getByLabelText, getByText} = render(<ContactForm/>);
-    const firstNameInput = getByLabelText(/first name/i);
-    const lastNameInput = getByLabelText(/last name/i);
-})
+// test("max-length of name inputs should be 12", ()=>{
+//     const {getByLabelText, getByText} = render(<ContactForm/>);
+//     const firstNameInput = getByLabelText(/first name/i);
+//     const lastNameInput = getByLabelText(/last name/i);
+
+//     expect(firstNameInput).toBeLessThanOrEqualTo(12)
+    
+// })
